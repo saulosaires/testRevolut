@@ -43,8 +43,8 @@ public class UserResourceTest {
 
 		User user = new User();
 
-		user.setUserName("user1");
-		user.setEmailAddress("email1");
+		user.setUserName("user12");
+		user.setEmailAddress("email12");
 
 		Account account = new Account();
 		account.setBalance(new BigDecimal(10));
@@ -132,8 +132,8 @@ public class UserResourceTest {
 
 		User user = new User();
 
-		user.setUserName("user1");
-		user.setEmailAddress("email1");
+		user.setUserName("testDeleteUser");
+		user.setEmailAddress("testDeleteUser");
 
 		Account account = new Account();
 		account.setBalance(new BigDecimal(10));

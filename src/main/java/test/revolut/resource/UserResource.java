@@ -71,6 +71,7 @@ public class UserResource {
         Optional<User> u = userService.findByUserName(user.getUserName());
     	
         if (u.isPresent()) {
+        	LOGGER.info(u.get().getUserName());
             throw new WebApplicationException("User name already exist", Response.Status.CONFLICT);
         }
         
